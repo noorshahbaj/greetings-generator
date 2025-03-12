@@ -24,23 +24,23 @@
     },
     "autoload": {
         "psr-4": {
-            "Shah-07\\GreetingsGenerator\\": "src"
+            "Shahbaj\\GreetingsGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Shah-07\\GreetingsGenerator\\Tests\\": "tests"
+            "Shahbaj\\GreetingsGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
+        "test": "vendor/bin/phpunit --no-coverage",
             "test-coverage": "vendor/bin/phpunit --coverage",
         "format": "vendor/bin/pint"
     },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            
+
             "phpstan/extension-installer": true
         }
     },

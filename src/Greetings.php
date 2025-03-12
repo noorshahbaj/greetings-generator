@@ -7,7 +7,7 @@ class Greetings
     private static $messages = [
         'Hello',
         'Hi',
-        'Hey'
+        'Hey',
     ];
 
     public static function greet()

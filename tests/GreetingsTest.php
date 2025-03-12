@@ -12,7 +12,7 @@ class GreetingsTest extends TestCase
         $messages = [
             'Hello',
             'Hi',
-            'Hey'
+            'Hey',
         ];
 
         $this->assertContains(Greetings::greet(), $messages);
